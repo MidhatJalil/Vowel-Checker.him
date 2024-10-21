@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10rem 30rem 0 30rem;
+    font-size: 40px;
+    font-weight: 700;
+    color: blue;
+}
+
+#input{
+    /* margin: 30rem; */
+    margin-left: 30rem;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 10rem;
+    padding-left: 2rem;
+}
+
+#result{
+    margin: 2rem 30rem;
+    width: 10rem;
+    color: brown;
+}
+
+button{
+    width: 7rem;
+    height: 3rem;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+@media (max-width:900px){
+    html{
+        font-size: 90%;
+        margin-left: 0;
+        text-align: center;
+    
+    }
+
+    h1{
+        margin: 10rem 10rem 0 10rem;
+        text-align: center;
+}
+#input{
+    width:11rem;
+    padding: 0;
+    margin-left: 8rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+    #result{
+        margin: 3rem 10rem;
+}
+    buttons{
+    margin-left: 2rem;
+    width: 7rem;
+    height: 3rem;
+
+}
+
+}
+
+@media (max-width:530px){
+    html{
+        font-size: 80%;
+        margin-left: 0;
+        text-align: center;
+    
+    }
+
+    h1{
+        margin: 10rem 5rem 0 5rem;
+        /* text-align: center; */
+}
+button{
+   
+}
+}
